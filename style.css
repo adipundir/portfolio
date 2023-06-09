@@ -8,6 +8,7 @@ body{
     overflow: hidden;
 }
 .container{
+    text-align: center;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -41,4 +42,18 @@ color: rgba(0,0,0,0.6);
 .title:hover{
     -webkit-text-stroke: 2px rgba(0,0,0,1);
     color: rgba(0,0,0,1);
+}
+
+@media (max-width: 500px){
+    h1{
+        font-size: 2.5rem;
+        position: absolute;
+        top: 300px;
+    }
+    .title{
+        font-size: 5rem;
+        top: 30px;
+        
+    }
+   
 }
